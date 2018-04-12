@@ -18,7 +18,7 @@ $(document).ready(function () {
     $('.ml9 .letters').each(function () {
         $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, '<span class="letter">$&</span>'));
     });
-
+    //linked in HTML
     anime.timeline({loop: true})
         .add({
             targets: '.ml9 .letter',
