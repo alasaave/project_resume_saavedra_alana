@@ -23,3 +23,8 @@ main {
 	width: 95%;
 	margin: auto;
 }
+
+img {
+	width: 100%;
+	max-width: 300px;
+}
