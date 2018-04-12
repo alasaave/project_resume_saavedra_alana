@@ -19,6 +19,7 @@ body {
 p {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1rem;
+	line-height: 80%;
 }
 
 main {
@@ -41,6 +42,10 @@ img {
 	font-weight: 300;
 	color: #666666;
 	letter-spacing: 3px;
+}
+
+section {
+	padding: 1%;
 }
 
 /* Section IDs */
