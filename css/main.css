@@ -53,7 +53,7 @@ section {
 .ml9 {
 	position: relative;
 	font-weight: 400;
-	font-size: 3.5em;
+	font-size: 3em;
 	margin-bottom: 0;
 }
 
@@ -78,4 +78,41 @@ section {
 
 #experience, #awards {
 	background-color: honeydew;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+	.ml9 {
+		font-size: 3.5em;
+	}
+}
+
+@media (min-width: 800px) {
+	.ml9 {
+		font-size: 4em;
+	}
+	#edu, #experience {
+		float: right;
+		width: 50%;
+	}
+	#skills, #awards {
+		text-align: right;
+		width: 43%;
+	}
+}
+
+@media (min-width: 1000px) {
+	#skills, #awards {
+		float: right;
+	}
+	img {
+		float: left;
+		margin-left: 14%;
+	}
+}
+
+@media (min-width: 1110px) {
+	img {
+		margin-left: 18%;
+	}
 }
