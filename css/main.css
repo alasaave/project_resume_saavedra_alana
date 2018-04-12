@@ -12,19 +12,50 @@
 	font-style: normal;
 }
 
-
 body {
-	font-family: 'Sinkin Sans', sans-serif;
+	font: normal 1rem 'Sinkin Sans', sans-serif;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
 	font-size: 1rem;
-	font-style: normal;
 }
 
 main {
-	width: 95%;
+	width: 90%;
 	margin: auto;
+}
+
+header {
+	width: 100%;
+	text-align: center;
 }
 
 img {
 	width: 100%;
 	max-width: 300px;
+}
+
+.gray {
+	font-size: 0.625rem;
+	font-weight: 300;
+	color: #666666;
+	letter-spacing: 3px;
+}
+
+/* Section IDs */
+#edu {
+	background-color: aliceblue;
+}
+
+#experience {
+	background-color: aqua;
+}
+
+#skills {
+	background-color: lawngreen;
+}
+
+#awards {
+	background-color: lightsalmon;
 }
