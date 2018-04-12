@@ -17,8 +17,7 @@ body {
 }
 
 p {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1rem;
+	font: normal 1em 'Oswald', sans-serif;
 	line-height: 95%;
 }
 
@@ -35,11 +34,13 @@ header {
 img {
 	width: 100%;
 	max-width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .gray {
-	font-size: 0.625rem;
-	font-weight: 300;
+	font: 300 0.625rem 'Sinkin Sans', sans-serif;
 	color: #666666;
 	letter-spacing: 3px;
 }
