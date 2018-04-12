@@ -8,6 +8,10 @@ $(document).ready(function () {
     });
 
     //jQuery plugin: animate image on click
-    $('#btn').animateClick();
+    $('img').animateClick({
+        'color': 'gold',
+        'animation': 'shoot',
+        'size': 7
+    });
 
 });
