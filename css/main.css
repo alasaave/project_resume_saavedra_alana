@@ -19,7 +19,7 @@ body {
 p {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1rem;
-	line-height: 80%;
+	line-height: 95%;
 }
 
 main {
@@ -48,19 +48,33 @@ section {
 	padding: 1%;
 }
 
-/* Section IDs */
-#edu {
-	background-color: aliceblue;
+/* Name animation */
+.ml9 {
+	position: relative;
+	font-weight: 400;
+	font-size: 3.5em;
+	margin-bottom: 0;
 }
 
-#experience {
-	background-color: aqua;
+.ml9 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	padding-right: 0.05em;
+	padding-top: 0.2em;
 }
 
-#skills {
-	background-color: lawngreen;
+.ml9 .letter {
+	transform-origin: 50% 100%;
+	display: inline-block;
+	line-height: 1em;
 }
 
-#awards {
-	background-color: lightsalmon;
+/* Section IDs
+#edu, #skills {
+	background-color: mintcream;
+} */
+
+#experience, #awards {
+	background-color: honeydew;
 }
