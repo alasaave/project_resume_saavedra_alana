@@ -1,13 +1,13 @@
 @font-face {
 	font-family: 'sinkinsans-600semibold';
-	src: url('fonts/sinkinsans-600semibold-webfont.woff2') format('woff2'), url('fonts/sinkinsans-600semibold-webfont.woff') format('woff'), url('fonts/sinkinsans-600semibold.ttf') format('truetype');
+	src: url('../fonts/sinkinsans-600semibold-webfont.woff2') format('woff2'), url('../fonts/sinkinsans-600semibold-webfont.woff') format('woff'), url('../fonts/sinkinsans-600semibold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'sinkinsans-300light';
-	src: url('fonts/sinkinsans-300Light-webfont.woff2') format('woff2'), url('fonts/sinkinsans-300light-webfont.woff') format('woff'), url('fonts/sinkinsans-300light.ttf') format('truetype');
+	src: url('../fonts/sinkinsans-300Light-webfont.woff2') format('woff2'), url('../fonts/sinkinsans-300light-webfont.woff') format('woff'), url('../fonts/sinkinsans-300light.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -42,10 +42,6 @@ img {
 	font: 300 0.625rem 'Sinkin Sans', sans-serif;
 	color: #666666;
 	letter-spacing: 3px;
-}
-
-section:nth-of-child(2){
-	color: red;
 }
 
 section {

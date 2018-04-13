@@ -7,7 +7,7 @@ $(document).ready(function () {
         $(this).css({'background-color': 'white', 'color': 'black'});
     });
 
-    //jQuery plugin: animate image on click
+    //jQuery plugin: click animation on image only
     $('img').animateClick({
         'color': 'gold',
         'animation': 'shoot',
